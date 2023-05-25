@@ -1,0 +1,19 @@
+@media screen and (max-width:1247){
+    .offers{
+        width: 70%;
+    }
+}
+@media screen and (max-width:1149){
+    header{
+        width: 90%;
+    }
+    .offers{
+        width: 82%;
+    }
+    .destination{
+        width: 55%;
+    }
+}
+@media screen and (max-width:1152){
+    
+}

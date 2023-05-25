@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    font-family: 'Poppins', sans-serif ;
+}
+
+/* <!-- Header Start --> */
+header{
+    width: 80%;
+    height: 80vh;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+header nav{
+    width: 95%;
+    height: 7%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    padding: 3px 15px;
+}
+
+header nav ul li:nth-last-child(1){
+    background: black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+header nav ul li:nth-last-child(1) a{
+    color: white;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+header nav ul li a:hover{
+    color: gray;
+}
+
+header nav .bi-three-dots {
+    display: none;
+}
+header .content{
+    position: relative;
+    width: 100%;
+    height: 93%;
+    /* border: 1px solid black; */
+    
+}
+
+header .content::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid black; */
+    background: url('../img/bg2.jpg')no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+header .content .cont_box{
+    width: 500px;
+    height: auto;
+    color: white;
+    padding: 30px;
+}
+
+header .content .cont_box h1{
+    line-height: 100px;
+    font-weight: 800;
+    margin: 0;
+    font-size: 80px;
+}
+.bloganim{
+    text-align: center;
+}
+.letter {
+    font-size: 15vmin;
+    font-weight: bolder;
+    text-shadow: 0.03em 0.03em 0.02em #777;
+    will-change: transform;
+    cursor: default;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+
+.letter:hover {
+    transform: scaleX(0.8) scaleY(1.2);
+  }
+.extra{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.para {
+    font-size: 5vmin;
+    font-weight: bolder;
+    text-shadow: 0.03em 0.03em 0.02em #777;
+    will-change: transform;
+    cursor: default;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+
+.para:hover {
+    transform: scaleX(0.8) scaleY(1.2);
+}
+
+
+
+.blog{
+    /* border: 1px solid black; */
+    width: 82%;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.blog .card{
+    width: 220px;
+    height: auto;
+    padding: 10px;
+    /* border: 1px solid black; */
+    min-width: 220px;
+}
+
+.blog .card img{
+    width: 100%;
+    height: 90;
+}
+.blog .card h3{
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.blog .card h2{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 450;
+}
+.blog .card p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.blog .card .heart_chat{
+    display: flex;
+    align-items: center;
+}
+.blog .card .heart_chat i:nth-child(1){
+    color: red;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.blog .card .heart_chat i:nth-child(2){
+    color: lightseagreen;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.blog .card .heart_chat i span{
+    color: black;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-right: 20px;
+    font-style: normal;
+}
+.blog .card .heart_chat i{
+    margin-left: 35px;
+}
+.blog .card .more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog .card .more a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 50px;
+    font-size: 11px;
+    transition: .3s linear;
+}
+.blog .card .more a:hover{
+    background: gray;
+}
+
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background: rgb(249, 249, 255);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer h2{
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+footer p{
+    text-align: center;
+    width: 400px;
+    font-size: 13px;
+}
+footer .input{
+    box-shadow: 0px 3px 20px -1px gray;
+    border-radius: 20px;
+}
+footer .input input{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 20px 0px 0px 20px;
+
+}
+footer .input button{
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 0px 20px 20px 0px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: .3s linear;
+}
+footer .input button:hover{
+    background: gray;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+footer ul li{
+    text-align: center;
+    margin-right: 30px;
+    font-weight: bold;
+}
+footer ul li h6{
+    font-size: 11px;
+    font-weight: 600;
+    max-width: 120px;
+    margin: 0;
+    line-height: 18px;
+    border-top: 1px solid black;
+    padding-top: 3px;
+}
