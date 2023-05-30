@@ -65,7 +65,7 @@
 
         <div class="media">
             <div class="layer">
-                <p>+ N. Mehta</p>
+                <p>+ Sk Abrar</p>
             </div>
         <img src="https://images.unsplash.com/photo-1442965416224-f6a7eca980fa?dpr=1&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=" alt="" />
         </div>
@@ -86,7 +86,7 @@
 
         <div class="media">
             <div class="layer">
-                <p>+ N. Mehta</p>
+                <p>+ N. Meht</p>
             </div>
         <img src="https://images.unsplash.com/photo-1442965416224-f6a7eca980fa?dpr=1&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=" alt="" />
         </div>

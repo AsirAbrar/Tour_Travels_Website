@@ -12,7 +12,7 @@
     <!-- Header Start -->
     <header>
         <nav>
-            <a href="index.html"><h4>Travel Buddy</h4></a>
+            <a href="index.blade.php"><h4>Travel Buddy</h4></a>
             <ul>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="blog.html">Blogs</a></li>
